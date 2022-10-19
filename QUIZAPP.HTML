@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QUIZ.CSS">
+    <title>Quiz App</title>
+</head>
+<header>
+  <nav>
+        <b><a class="kyle" href="HOMEPAGE.HTML"_self>Kyle Tristan L. Antion</a></b>
+    <ul>
+        <li><b><a href="QuizApp.html">Quiz App</a></b></li>
+        <li><b><a href="Registration.html">Registration</a></b></li>
+        <li><b><a href="Stats.html">Stats</a></b></li>
+    </ul>
+  </nav>
+<header>
+<body>
+    <style>
+        
+        /* width */
+        ::-webkit-scrollbar {
+          width: 15px;
+        }
+          
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px rgb(6, 96, 187); 
+          border-radius: 15px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+          background: rgb(6, 164, 238); 
+          border-radius: 20px;
+        }        
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {   
+          background: #32e606; 
+          border-radius: 10px;
+        } 
+</style>
+  <div class="Info"> 
+   <div class= "Student"> 
+    <h2>Student Info</h2>
+    <br>
+    <br>
+
+        <label for="name">Name:</label><!-- yung input#name sa css uya siya nakapaloob your choice kung ano gusto mong style-->
+        <input type="text" id="name" name="name" placeholder="e.g. Tristan Antion "><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="name" name="email" placeholder="e.g. AntionkyleTristan@gmail.com"><br>
+        <label for="course">Course:</label>
+        <input type="text" id="name" name="course" placeholder="Please input course and block"><br>
+        <label for="date">Date:</label>
+        <input type="date" id="name" name="date" value="mm/dd/yy"><br>
+    </form>
+   </div>
+    <br>
+    <form id="exam"><!--pag gusto mo i align yung mga text sinda igamit mo nalang uning form id sa css yung exam kesa ma salo salo ka pa-->
+      <div class="exam"> 
+      <h2>Exam Proper</h2><br><br>
+        <label>1.HTML is case sensitive?</label><br>
+        <input type="text" id="q1" name="q1" value=""><br>
+        <br>
+      
+        <label>2.What does HTML stands for</label><br>
+        <input type="radio" id="" name="t" value="True">
+        <label>True</label>
+        <input type="radio" id="" name="f" value="False">
+        <label>False</label>
+        <br><br>
+    
+        <label for="q3">3.Select all legitimate CSS properties</label><br>
+        <input type="checkbox" id="font" name="font" value="Font">
+        <label for="font">Font</label><br>
+        <input type="checkbox" id="label" name="label" value="Label">
+        <label for="label">Label</label><br>
+        <input type="checkbox" id="bg" name="bg" value="Background">
+        <label for="bg">Background</label><br>
+        <input type="checkbox" id="frm" name="frm" value="Forms">
+        <label for="frm">Forms</label><br><br>
+        
+        <label for="q4">4. Discuss if you want to be front-end or back end developer</label><br>
+        <input type="file" id="file" name="file" value="Choose File">
+        <br><br>
+      
+        <label for="q5">5. Upload a simple navigation markup</label><br>
+        <input type="text" class="q5" name="q5" size="50%"><br><br><!--sa css and ikahang mo uya is yung class niya which is the q5 so .q5-->
+    </form>
+  </div>
+  <input type="submit" value="Submit Form">
+</div> 
+</body>
+</html

@@ -1,0 +1,145 @@
+body{
+  background-image: url(plane-landing-sunset.jpg);
+  background-size: auto;
+  background-repeat: none;
+}
+header{
+  color: rgb(255, 251, 0);
+  display: block;
+  font-size: large;
+  padding: 11px 15px;
+  margin: 17px;
+  text-align: center;
+  margin-left: auto;
+  margin-left: auto;
+  font-style: italic;
+}
+nav{
+  list-style-type: none;
+  margin: 12px;
+  padding: 2px;
+  overflow: hidden;
+  background-color: #eea300;
+  border-radius: 55px;
+}
+li {
+  float: right;
+  list-style-type: none;
+  padding: 1;
+  margin: 1;
+}
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 15px;
+  margin: 11px;
+  font-size:larger;
+  text-decoration: none;
+}
+h2{
+  text-align: center;
+  font-style: italic;
+}
+#fname, #mname, #lname{
+  width: 61%;
+  padding: 13px 20px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 7px solid #f5a700;
+  border-radius: 6px;
+  padding: 11px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+
+}
+#Month, #Year, #Gender, #town, #Course{
+  width: 40%;
+  padding: 17px 20px;
+  border: 8px solid #ecb10e;
+  border-radius: 5px;
+}
+#province, #street, #zip{
+  width: 54%;
+  padding: 15px 20px;
+  margin: 9px 0;
+  box-sizing: border-box;
+  border: 5px solid #f15f0b;
+  border-radius: 5px;
+}
+#email{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid #ff9305;
+  border-radius: 5px;
+} 
+#Mobile{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid #e7aa00e7;
+  border-radius: 5px;
+}
+#Phone{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid #ec9a00;
+  border-radius: 5px;
+}
+#Work{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 5px solid #ffc400;
+  border-radius: 5px;
+}
+.comments{
+  width: 70%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #dbaa0a;
+  border-radius: 5px; 
+  font-size: 16px;
+  resize: none;
+}S
+input[type=submit]{
+  background-color: #c09e06;
+  width: 20%;
+  height: 30px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(230, 189, 5);
+  text-align: center;
+
+} 
+input[type=reset]{
+  background-color: #bcc906;
+  width: 20%;
+  height: 30px;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+input[type=reset]:hover{
+  background-color: rgb(156, 87, 8);
+  color: #e9e50f;
+}
+input[type=submit]:hover{
+  background-color: rgb(228, 126, 10);
+  color: #e7eb0b;
